@@ -1,11 +1,10 @@
-```markdown
-#  JobBordX — Full-Stack Job Board App
+ JobBordX — Full-Stack Job Board App
 
 A full-stack job board application built with React (frontend) and Flask (backend), featuring modular CRUD routes, clean UI, and ready for Docker + CI/CD integration.
 
 ---
 
-##  Features
+ Features
 
 - Post and view job listings
 - Responsive UI with React + Tailwind CSS
@@ -16,8 +15,7 @@ A full-stack job board application built with React (frontend) and Flask (backen
 
 ---
 
-
-##  Tech Stack
+ Tech Stack
 
 | Layer      | Tech                     |
 |------------|--------------------------|
@@ -28,15 +26,13 @@ A full-stack job board application built with React (frontend) and Flask (backen
 
 ---
 
-##  Setup Instructions
+ Setup Instructions
 
-### 1. Clone the repo
+1. Clone the repo
 
 ```bash
 git clone https://github.com/your-username/JobBordX.git
 cd JobBordX
-```
-
 ### 2. Install backend dependencies
 
 ```bash
@@ -98,5 +94,3 @@ This project demonstrates:
 - Real-world backend architecture
 
 ```
-
----
