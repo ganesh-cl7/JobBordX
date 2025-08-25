@@ -24,7 +24,6 @@ DEVOPS     : Docker, Jenkins (coming)
 1. Clone the repository 
 git clone https://github.com/ganesh-cl7/JobBordX.git
 
-```
 
 2. Install backend dependencies
 cd backend
