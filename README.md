@@ -1,11 +1,10 @@
- JobBordX — Full-Stack Job Board App
+*** JOBBORDX — FULL-STACK JOB BOARD APP ***
+================================================
 
 A full-stack job board application built with React (frontend) and Flask (backend), featuring modular CRUD routes, clean UI, and ready for Docker + CI/CD integration.
 
----
-
- Features
-
+**FEATURES**
+------------------------------------------------
 - Post and view job listings
 - Responsive UI with React + Tailwind CSS
 - Flask backend with SQLite database
@@ -13,84 +12,48 @@ A full-stack job board application built with React (frontend) and Flask (backen
 - RESTful API integration
 - Ready for Dockerization and Jenkins CI/CD
 
----
+**TECH STACK**
+------------------------------------------------
+FRONTEND   : React, Tailwind CSS  
+BACKEND    : Flask, SQLAlchemy  
+DATABASE   : SQLite  
+DEVOPS     : Docker, Jenkins (coming)  
 
- Tech Stack
+**SETUP INSTRUCTIONS**
+------------------------------------------------
+1. Clone the repository 
+git clone https://github.com/ganesh-cl7/JobBordX.git
 
-| Layer      | Tech                     |
-|------------|--------------------------|
-| Frontend   | React, Tailwind CSS      |
-| Backend    | Flask, SQLAlchemy        |
-| Database   | SQLite                   |
-| DevOps     | Docker, Jenkins (coming) |
-
----
-
- Setup Instructions
-
-1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/JobBordX.git
-cd JobBordX
-### 2. Install backend dependencies
-
-```bash
-cd backend
-pip install -r instance/requirements.txt
 ```
 
-### 3. Install frontend dependencies
+2. Install backend dependencies
+cd backend
+pip install -r instance/requirements.txt
 
-```bash
+3. Install frontend dependencies
 cd ../frontend
 npm install
 npm start
-```
 
----
-
-##  Docker Setup (Coming Soon)
-
-```bash
+**DOCKER SETUP** (Coming Soon)
+------------------------------------------------
 docker-compose up --build
-```
 
----
+**STEPS**
+------------------------------------------------
+- [x] Full-stack CRUD integration  
+- [x] Styled UI with Tailwind  
+- [x] Backend seeding and validation  
+- [ ] Dockerize frontend and backend  
+- [ ] Add Jenkins CI/CD pipeline  
+- [ ] Deploy to cloud (Render/Heroku/AWS)  
 
-##  Folder Structure
+**NOTES**
+------------------------------------------------
+This project demonstrates:  
 
-```
-JobBordX/
-├── backend/
-│   ├── app/
-│   ├── instance/
-│   └── run.py
-├── frontend/
-│   ├── src/components/
-│   └── public/
-```
-
----
-
-##  Roadmap
-
-- [x] Full-stack CRUD integration
-- [x] Styled UI with Tailwind
-- [x] Backend seeding and validation
-- [ ] Dockerize frontend and backend
-- [ ] Add Jenkins CI/CD pipeline
-- [ ] Deploy to cloud (Render/Heroku/AWS)
-
----
-
-##  Notes
-
-This project demonstrates:
-
-- Full-stack integration mindset
-- DevOps readiness with Docker & CI/CD
-- Clean UI and responsive design
+- Full-stack integration mindset  
+- DevOps readiness with Docker & CI/CD  
+- Clean UI and responsive design  
 - Real-world backend architecture
 
-```
